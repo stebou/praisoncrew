@@ -1,0 +1,35 @@
+framework: autogen
+topic: create movie script about cat in mars
+roles:
+  concept_developer:
+    backstory: Experienced in creating intriguing and innovative concepts, sets the
+      foundation for the movie script.
+    goal: Create a unique story concept about a cat in Mars
+    role: Concept Developer
+    tasks:
+      story_concept:
+        description: Develop a captivating and original story concept about a cat
+          living on Mars.
+        expected_output: A detailed document outlining the main story concept, characters,
+          and initial plot.
+  scriptwriter:
+    backstory: Expert in dialogue and script structure, turns concepts into a coherent
+      script.
+    goal: Develop a compelling script based on the story concept
+    role: Scriptwriter
+    tasks:
+      script_development:
+        description: Create a script that brings the story concept to life, focusing
+          on dialogue, pacing, and scene development.
+        expected_output: A full movie script featuring the cat in Mars and adhering
+          to the story concept.
+  editor:
+    backstory: Specializes in refining scripts, ensuring smooth story flow and consistency.
+    goal: Refine and polish the movie script
+    role: Editor
+    tasks:
+      script_editing:
+        description: Review and enhance the movie script, focusing on grammar, style,
+          and clarity.
+        expected_output: A polished and error-free movie script about a cat in Mars.
+dependencies: []
